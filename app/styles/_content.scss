@@ -13,4 +13,5 @@ body {
 .container .jumbotron {
     @include border-top-radius(0px);
     @include border-bottom-radius(50px);
+    @include simple-output-mixin();
 }
